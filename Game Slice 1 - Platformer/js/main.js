@@ -53,7 +53,6 @@ function preload() {
 
     //load SoundFX
     this.load.audio("jump", "../assets/JumpSound.wav")
-    this.load.audio("pickUp", "../assets/PickUpEffects.mp3")
 
     //load Music
     this.load.audio("overgroundMusic", "../assets/MainTheme1.mp3")
@@ -128,7 +127,6 @@ function addMusic() {
 
 function addSound() {
     sfx.jump = this.sound.add("jump", { loop: false, volume: 0.5 });
-    sfx.pickUp = this.sound.add("pickUp", { loop: false, volume: 0.5 });
 }
 
 function update() {
