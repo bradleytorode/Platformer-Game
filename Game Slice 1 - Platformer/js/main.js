@@ -40,23 +40,23 @@ function preload() {
     console.log(this);
 
     //Load images
-    this.load.image("background", "/assets/background.png");
-    this.load.image("landscape", "/assets/landscape-tileset.png")
-    this.load.image("props", "/assets/props-tileset.png")
-    this.load.image("jewel", "/assets/jewel.png");
+    this.load.image("background", "assets/background.png");
+    this.load.image("landscape", "assets/landscape-tileset.png")
+    this.load.image("props", "assets/props-tileset.png")
+    this.load.image("jewel", "assets/jewel.png");
     //load tilemap
-    this.load.tilemapTiledJSON("tilemap","/assets/level1.json")
+    this.load.tilemapTiledJSON("tilemap","assets/level1.json")
 
     //Load spritesheets
-    this.load.spritesheet("player", "/assets/player.png", { frameWidth: 24, frameHeight: 24 });
+    this.load.spritesheet("player", "assets/player.png", { frameWidth: 24, frameHeight: 24 });
 
 
     //load SoundFX
-    this.load.audio("jump", "/assets/JumpSound.wav")
+    this.load.audio("jump", "assets/JumpSound.wav")
 
     //load Music
-    this.load.audio("overgroundMusic", "/assets/MainTheme1.mp3")
-    this.load.audio("undergroundMusic", "/assets/MainTheme2.mp3")
+    this.load.audio("overgroundMusic", "assets/MainTheme1.mp3")
+    this.load.audio("undergroundMusic", "assets/MainTheme2.mp3")
 
 
   
